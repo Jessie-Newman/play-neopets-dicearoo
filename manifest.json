@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Play Dice A Roo",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_icon": "icon.png"
+  },
+ "content_scripts": [
+   {
+     "matches": ["https://*.neopets.com/games/play_dicearoo*"],
+     "js": ["content-script.js"]
+   }
+ ]
+}
