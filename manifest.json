@@ -8,7 +8,7 @@
   },
  "content_scripts": [
    {
-     "matches": ["https://*.neopets.com/games/play_dicearoo*"],
+     "matches": ["https://*.neopets.com/games/*dicearoo*"],
      "js": ["content-script.js"]
    }
  ]
