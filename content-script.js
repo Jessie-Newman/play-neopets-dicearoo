@@ -6,7 +6,7 @@ window.addEventListener('load', function () {
     errors = document.getElementsByTagName('h1')
     if (errors.length > 0) {
       error = errors[0]
-      if (error.value == 'Service Unavailable - Zero size object') {
+      if (error.textContent == 'Service Unavailable - Zero size object') {
         this.window.location.reload()
       }
     }
